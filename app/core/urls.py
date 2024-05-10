@@ -9,8 +9,7 @@ from .views import infoView
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include("polls.urls")),
-    path("cbvpolls/", include("cbvpolls.urls")),
+    path("", include("modules.polls.urls")),
     path("info", infoView, name="info"),
 ]
 

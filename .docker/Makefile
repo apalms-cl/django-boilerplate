@@ -10,9 +10,6 @@ _build:
 	docker exec boilerplate make precommit
 	docker ps
 
-_admin:
-	docker exec boilerplate bash -c "echo \"from django.contrib.auth.models import User; User.objects.create_superuser('admin', '', 'admin')\" | python manage.py shell"
-
 update:
 	git submodule update
 	git stash

@@ -20,8 +20,7 @@ INSTALLED_APPS = [
     "crispy_forms",
     "formtools",
     "crispy_bootstrap5",
-    "polls.apps.PollsConfig",
-    "cbvpolls.apps.CbvpollsConfig",
+    "modules.polls",
 ]
 
 MIDDLEWARE = [
@@ -41,6 +40,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [
+            "_templates",
             "templates",
         ],
         "APP_DIRS": True,

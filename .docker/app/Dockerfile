@@ -1,4 +1,4 @@
-FROM python:3.12.2-bookworm as production
+FROM python:3.12.3-bookworm as production
 
 ARG UID
 ARG GID
@@ -25,7 +25,6 @@ FROM production as develop
 
 USER root
 RUN apt-get update
-RUN apt-get -y install --no-install-recommends graphviz graphviz-dev 
 
 USER instalar
 RUN pip install -r _requirements/develop.txt
