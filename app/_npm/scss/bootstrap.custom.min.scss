@@ -1,0 +1,61 @@
+// $color-darkergrey: #333;
+// $color-darkgrey: #4d4d4d;
+// $color-grey: #666666;
+// $color-demigrey: #808080;
+// $color-lemigrey: #D6D6D6;
+// $color-lightgrey: #E8E8E8;
+// $color-whiteish: #F0F0F0 ;
+// $color-red: #b5091d;
+
+$color-blue: #192d69;
+$color-yellow:#e6d813;
+$color-black: black;
+
+// bootstrap vars
+$font-size-base: 0.825rem;
+$small-font-size: 0.7rem;
+$nav-link-padding-y: 0.2rem;
+$font-family-base: 'Nunito Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// common
+.header {
+    .logo a {
+        font-size: $font-size-base*1.75;
+        font-weight: 700;
+        color: white;
+        border-right: solid 4px $color-yellow;
+        padding: 0 16px 0 0;
+        text-decoration: none;
+    }
+    .modulo {
+        font-size: $font-size-base*1.25;
+        font-weight: 300;
+    }
+}
+
+
+// forms
+select.filtro {width: auto;}
+.bg-yellow {color: black; background-color: $color-yellow;}
+.bg-blue {color: white; background-color: $color-blue;}
+.bg-black {color: white; background-color: $color-black;}
+
+// tinymce render
+.texto {
+    h1 {font-size: 1.3rem;}
+    h2 {font-size: 1.2rem;}
+    h3 {font-size: 1.15rem;}
+    // a {color: $color-red !important; font-weight: 600;}
+}
+
+// bootstrap-tables
+.card-view { 
+    .card-view-title, .card-view-value {margin-bottom: 20px;}
+}
+
+.text-blue {
+    color: $color-blue;
+}
