@@ -3,14 +3,14 @@
       "bootstrap": "^5.3.3",
       "bootstrap-icons": "^1.11.3",
       "bootstrap-select": "^1.13.18",
-      "bootstrap-table": "^1.22.5",
+      "bootstrap-table": "^1.22.6",
       "chartjs": "^0.3.24",
       "chartjs-plugin-colorschemes": "^0.4.0",
       "htmx.org": "^1.9.12",
       "jquery": "^3.7.1"
     },
     "devDependencies": {
-      "sass": "^1.77.0"
+      "sass": "^1.77.4"
     },
     "name": "servicios",
     "version": "1.0.0",
